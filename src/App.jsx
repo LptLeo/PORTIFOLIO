@@ -41,14 +41,14 @@ function App() {
           </div>
           <div>
             <img
-              src="../public/ux.jpg"
+              src="/ux.jpg"
               alt="Desenvolvendo experiência de usuário"
             />
             <img
-              src="../public/development.png"
+              src="/development.png"
               alt="Desenvolvendo software/site"
             />
-            <img src="../public/code.jpg" alt="Desenvolvendo código jQuery" />
+            <img src="/code.jpg" alt="Desenvolvendo código jQuery" />
           </div>
         </section>
         <section class="conteudo-projetos" id="conteudo-projetos">
@@ -61,16 +61,16 @@ function App() {
               <div>
                 <h3>Github Profiler</h3>
                 <div class="projeto-techs">
-                  <img src="../public/bootstrap.png" alt="Bootstrap" />
-                  <img src="../public/css-3.png" alt="CSS3" />
-                  <img src="../public/html-5.png" alt="HTML5" />
-                  <img src="../public/js.png" alt="javaScript" />
-                  <img src="../public/reactjs.png" alt="ReactJS" />
-                  <img src="../public/sass.png" alt="SASS" />
+                  <img src="/bootstrap.png" alt="Bootstrap" />
+                  <img src="/css-3.png" alt="CSS3" />
+                  <img src="/html-5.png" alt="HTML5" />
+                  <img src="/js.png" alt="javaScript" />
+                  <img src="/reactjs.png" alt="ReactJS" />
+                  <img src="/sass.png" alt="SASS" />
                 </div>
               </div>
               <a className='projeto-link' href="https://portifolio-livid-pi.vercel.app/">
-                <img src="../public/github-profiler.png" alt="Projeto" />
+                <img src="/github-profiler.png" alt="Projeto" />
               </a>
               <a href="">Ver projeto</a>
             </li>
@@ -78,12 +78,12 @@ function App() {
               <div>
                 <h3>Título do projeto</h3>
                 <div class="projeto-techs">
-                  <img src="../public/bootstrap.png" alt="Bootstrap" />
-                  <img src="../public/css-3.png" alt="CSS3" />
-                  <img src="../public/html-5.png" alt="HTML5" />
-                  <img src="../public/js.png" alt="javaScript" />
-                  <img src="../public/reactjs.png" alt="ReactJS" />
-                  <img src="../public/sass.png" alt="SASS" />
+                  <img src="/bootstrap.png" alt="Bootstrap" />
+                  <img src="/css-3.png" alt="CSS3" />
+                  <img src="/html-5.png" alt="HTML5" />
+                  <img src="/js.png" alt="javaScript" />
+                  <img src="/reactjs.png" alt="ReactJS" />
+                  <img src="/sass.png" alt="SASS" />
                 </div>
               </div>
               <a className='projeto-link' href="#">
@@ -95,12 +95,12 @@ function App() {
               <div>
                 <h3>Título do projeto</h3>
                 <div class="projeto-techs">
-                  <img src="../public/bootstrap.png" alt="Bootstrap" />
-                  <img src="../public/css-3.png" alt="CSS3" />
-                  <img src="../public/html-5.png" alt="HTML5" />
-                  <img src="../public/js.png" alt="javaScript" />
-                  <img src="../public/reactjs.png" alt="ReactJS" />
-                  <img src="../public/sass.png" alt="SASS" />
+                  <img src="/bootstrap.png" alt="Bootstrap" />
+                  <img src="/css-3.png" alt="CSS3" />
+                  <img src="/html-5.png" alt="HTML5" />
+                  <img src="/js.png" alt="javaScript" />
+                  <img src="/reactjs.png" alt="ReactJS" />
+                  <img src="/sass.png" alt="SASS" />
                 </div>
               </div>
               <a className='projeto-link' href="#">
@@ -112,12 +112,12 @@ function App() {
               <div>
                 <h3>Título do projeto</h3>
                 <div class="projeto-techs">
-                  <img src="../public/bootstrap.png" alt="Bootstrap" />
-                  <img src="../public/css-3.png" alt="CSS3" />
-                  <img src="../public/html-5.png" alt="HTML5" />
-                  <img src="../public/js.png" alt="javaScript" />
-                  <img src="../public/reactjs.png" alt="ReactJS" />
-                  <img src="../public/sass.png" alt="SASS" />
+                  <img src="/bootstrap.png" alt="Bootstrap" />
+                  <img src="/css-3.png" alt="CSS3" />
+                  <img src="/html-5.png" alt="HTML5" />
+                  <img src="/js.png" alt="javaScript" />
+                  <img src="/reactjs.png" alt="ReactJS" />
+                  <img src="/sass.png" alt="SASS" />
                 </div>
               </div>
               <a className='projeto-link' href="#">
@@ -132,51 +132,51 @@ function App() {
           <h2>Habilidades e Tecnologias que eu uso</h2>
           <ul class="lista-habilidades">
             <li>
-              <img src="../public/bootstrap.png" />
+              <img src="/bootstrap.png" />
               <span>Bootstrap</span>
             </li>
             <li>
-              <img src="../public/css-3.png" />
+              <img src="/css-3.png" />
               <span>CSS3</span>
             </li>
             <li>
-              <img src="../public/firebase.png" />
+              <img src="/firebase.png" />
               <span>FireBase</span>
             </li>
             <li>
-              <img src="../public/html-5.png" />
+              <img src="/html-5.png" />
               <span>HTML5</span>
             </li>
             <li>
-              <img src="../public/jquery.png" />
+              <img src="/jquery.png" />
               <span>jQuery</span>
             </li>
             <li>
-              <img src="../public/js.png" />
+              <img src="/js.png" />
               <span>JavaScript</span>
             </li>
             <li>
-              <img src="../public/mongodb.png" />
+              <img src="/mongodb.png" />
               <span>MongoDB</span>
             </li>
             <li>
-              <img src="../public/nodejs.png" />
+              <img src="/nodejs.png" />
               <span>NodeJS</span>
             </li>
             <li>
-              <img src="../public/postgre.png" />
+              <img src="/postgre.png" />
               <span>PostgreSQL</span>
             </li>
             <li>
-              <img src="../public/reactjs.png" />
+              <img src="/reactjs.png" />
               <span>ReactJS</span>
             </li>
             <li>
-              <img src="../public/redux.png" />
+              <img src="/redux.png" />
               <span>React Redux</span>
             </li>
             <li>
-              <img src="../public/sass.png" />
+              <img src="/sass.png" />
               <span>SASS</span>
             </li>
           </ul>
