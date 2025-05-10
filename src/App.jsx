@@ -41,14 +41,14 @@ function App() {
           </div>
           <div>
             <img
-              src="./imagens/ux.jpg"
+              src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/ux.jpg"
               alt="Desenvolvendo experiência de usuário"
             />
             <img
-              src="./imagens/development.png"
+              src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/development.png"
               alt="Desenvolvendo software/site"
             />
-            <img src="./imagens/code.jpg" alt="Desenvolvendo código jQuery" />
+            <img src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/code.jpg" alt="Desenvolvendo código jQuery" />
           </div>
         </section>
         <section class="conteudo-projetos" id="conteudo-projetos">
@@ -61,16 +61,16 @@ function App() {
               <div>
                 <h3>Github Profiler</h3>
                 <div class="projeto-techs">
-                  <img src="./imagens/bootstrap.png" alt="Bootstrap" />
-                  <img src="./imagens/css-3.png" alt="CSS3" />
-                  <img src="./imagens/html-5.png" alt="HTML5" />
-                  <img src="./imagens/js.png" alt="javaScript" />
-                  <img src="./imagens/reactjs.png" alt="ReactJS" />
-                  <img src="./imagens/sass.png" alt="SASS" />
+                  <img src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/bootstrap.png" alt="Bootstrap" />
+                  <img src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/css-3.png" alt="CSS3" />
+                  <img src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/html-5.png" alt="HTML5" />
+                  <img src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/js.png" alt="javaScript" />
+                  <img src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/reactjs.png" alt="ReactJS" />
+                  <img src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/sass.png" alt="SASS" />
                 </div>
               </div>
               <a className='projeto-link' href="https://portifolio-livid-pi.vercel.app/">
-                <img src="./imagens/github-profiler.png" alt="Projeto" />
+                <img src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/github-profiler.png" alt="Projeto" />
               </a>
               <a href="">Ver projeto</a>
             </li>
@@ -78,12 +78,12 @@ function App() {
               <div>
                 <h3>Título do projeto</h3>
                 <div class="projeto-techs">
-                  <img src="./imagens/bootstrap.png" alt="Bootstrap" />
-                  <img src="./imagens/css-3.png" alt="CSS3" />
-                  <img src="./imagens/html-5.png" alt="HTML5" />
-                  <img src="./imagens/js.png" alt="javaScript" />
-                  <img src="./imagens/reactjs.png" alt="ReactJS" />
-                  <img src="./imagens/sass.png" alt="SASS" />
+                  <img src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/bootstrap.png" alt="Bootstrap" />
+                  <img src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/css-3.png" alt="CSS3" />
+                  <img src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/html-5.png" alt="HTML5" />
+                  <img src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/js.png" alt="javaScript" />
+                  <img src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/reactjs.png" alt="ReactJS" />
+                  <img src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/sass.png" alt="SASS" />
                 </div>
               </div>
               <a className='projeto-link' href="#">
@@ -95,12 +95,12 @@ function App() {
               <div>
                 <h3>Título do projeto</h3>
                 <div class="projeto-techs">
-                  <img src="./imagens/bootstrap.png" alt="Bootstrap" />
-                  <img src="./imagens/css-3.png" alt="CSS3" />
-                  <img src="./imagens/html-5.png" alt="HTML5" />
-                  <img src="./imagens/js.png" alt="javaScript" />
-                  <img src="./imagens/reactjs.png" alt="ReactJS" />
-                  <img src="./imagens/sass.png" alt="SASS" />
+                  <img src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/bootstrap.png" alt="Bootstrap" />
+                  <img src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/css-3.png" alt="CSS3" />
+                  <img src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/html-5.png" alt="HTML5" />
+                  <img src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/js.png" alt="javaScript" />
+                  <img src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/reactjs.png" alt="ReactJS" />
+                  <img src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/sass.png" alt="SASS" />
                 </div>
               </div>
               <a className='projeto-link' href="#">
@@ -112,12 +112,12 @@ function App() {
               <div>
                 <h3>Título do projeto</h3>
                 <div class="projeto-techs">
-                  <img src="./imagens/bootstrap.png" alt="Bootstrap" />
-                  <img src="./imagens/css-3.png" alt="CSS3" />
-                  <img src="./imagens/html-5.png" alt="HTML5" />
-                  <img src="./imagens/js.png" alt="javaScript" />
-                  <img src="./imagens/reactjs.png" alt="ReactJS" />
-                  <img src="./imagens/sass.png" alt="SASS" />
+                  <img src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/bootstrap.png" alt="Bootstrap" />
+                  <img src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/css-3.png" alt="CSS3" />
+                  <img src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/html-5.png" alt="HTML5" />
+                  <img src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/js.png" alt="javaScript" />
+                  <img src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/reactjs.png" alt="ReactJS" />
+                  <img src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/sass.png" alt="SASS" />
                 </div>
               </div>
               <a className='projeto-link' href="#">
@@ -132,51 +132,51 @@ function App() {
           <h2>Habilidades e Tecnologias que eu uso</h2>
           <ul class="lista-habilidades">
             <li>
-              <img src="./imagens/bootstrap.png" />
+              <img src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/bootstrap.png" />
               <span>Bootstrap</span>
             </li>
             <li>
-              <img src="./imagens/css-3.png" />
+              <img src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/css-3.png" />
               <span>CSS3</span>
             </li>
             <li>
-              <img src="./imagens/firebase.png" />
+              <img src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/firebase.png" />
               <span>FireBase</span>
             </li>
             <li>
-              <img src="./imagens/html-5.png" />
+              <img src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/html-5.png" />
               <span>HTML5</span>
             </li>
             <li>
-              <img src="./imagens/jquery.png" />
+              <img src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/jquery.png" />
               <span>jQuery</span>
             </li>
             <li>
-              <img src="./imagens/js.png" />
+              <img src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/js.png" />
               <span>JavaScript</span>
             </li>
             <li>
-              <img src="./imagens/mongodb.png" />
+              <img src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/mongodb.png" />
               <span>MongoDB</span>
             </li>
             <li>
-              <img src="./imagens/nodejs.png" />
+              <img src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/nodejs.png" />
               <span>NodeJS</span>
             </li>
             <li>
-              <img src="./imagens/postgre.png" />
+              <img src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/postgre.png" />
               <span>PostgreSQL</span>
             </li>
             <li>
-              <img src="./imagens/reactjs.png" />
+              <img src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/reactjs.png" />
               <span>ReactJS</span>
             </li>
             <li>
-              <img src="./imagens/redux.png" />
+              <img src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/redux.png" />
               <span>React Redux</span>
             </li>
             <li>
-              <img src="./imagens/sass.png" />
+              <img src="/home/leonardo/VSCode Projects/Meus Projetos/PORTIFOLIO/imagens/sass.png" />
               <span>SASS</span>
             </li>
           </ul>
