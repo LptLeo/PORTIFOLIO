@@ -2,19 +2,26 @@ import { useState } from 'react';
 import './App.scss';
 import sendEmail from './services/email';
 
+const initialEmailData = {
+  nome: '',
+  contato: '',
+  mensagem: '',
+};
+
 function App() {
-  const [emailData, setEmailData] = useState({
-    nome: '',
-    contato: '',
-    mensagem: '',
-  });
+  const [emailData, setEmailData] = useState(initialEmailData);
+
+  async function handleEmailChange(e) {
+    await sendEmail(e, emailData);
+    setEmailData(initialEmailData);
+  }
 
   return (
     <>
       <header>
         <h1>Leonardo Per. Tavares</h1>
         <nav>
-          <ul class="cabecalho-lista">
+          <ul className="cabecalho-lista">
             <li>
               <a href="#conteudo-home">Home</a>
             </li>
@@ -31,9 +38,9 @@ function App() {
         </nav>
       </header>
       <main>
-        <section class="conteudo-home" id="conteudo-home">
+        <section className="conteudo-home" id="conteudo-home">
           <div>
-            <h2 class="home-titulo">Sobre mim</h2>
+            <h2 className="home-titulo">Sobre mim</h2>
             <p>
               Sou um programador apaixonado por tecnologia, e tenho foco na área
               de desenvolvimento web fullstack.
@@ -51,16 +58,16 @@ function App() {
             <img src="/code.jpg" alt="Desenvolvendo código jQuery" />
           </div>
         </section>
-        <section class="conteudo-projetos" id="conteudo-projetos">
+        <section className="conteudo-projetos" id="conteudo-projetos">
           <div>
             <h2>Projetos</h2>
             <p>Meus principais projetos como desenvolvedor web</p>
           </div>
-          <ul class="projetos-lista">
+          <ul className="projetos-lista">
             <li>
               <div>
                 <h3>Github Profiler</h3>
-                <div class="projeto-techs">
+                <div className="projeto-techs">
                   <img src="/bootstrap.png" alt="Bootstrap" />
                   <img src="/css-3.png" alt="CSS3" />
                   <img src="/html-5.png" alt="HTML5" />
@@ -77,7 +84,7 @@ function App() {
             <li>
               <div>
                 <h3>Título do projeto</h3>
-                <div class="projeto-techs">
+                <div className="projeto-techs">
                   <img src="/bootstrap.png" alt="Bootstrap" />
                   <img src="/css-3.png" alt="CSS3" />
                   <img src="/html-5.png" alt="HTML5" />
@@ -94,7 +101,7 @@ function App() {
             <li>
               <div>
                 <h3>Título do projeto</h3>
-                <div class="projeto-techs">
+                <div className="projeto-techs">
                   <img src="/bootstrap.png" alt="Bootstrap" />
                   <img src="/css-3.png" alt="CSS3" />
                   <img src="/html-5.png" alt="HTML5" />
@@ -111,7 +118,7 @@ function App() {
             <li>
               <div>
                 <h3>Título do projeto</h3>
-                <div class="projeto-techs">
+                <div className="projeto-techs">
                   <img src="/bootstrap.png" alt="Bootstrap" />
                   <img src="/css-3.png" alt="CSS3" />
                   <img src="/html-5.png" alt="HTML5" />
@@ -127,10 +134,10 @@ function App() {
             </li>
           </ul>
         </section>
-        <section class="conteudo-habilidades" id="conteudo-habilidades">
+        <section className="conteudo-habilidades" id="conteudo-habilidades">
           <h4>Habilidades</h4>
           <h2>Habilidades e Tecnologias que eu uso</h2>
-          <ul class="lista-habilidades">
+          <ul className="lista-habilidades">
             <li>
               <img src="/bootstrap.png" />
               <span>Bootstrap</span>
@@ -181,30 +188,33 @@ function App() {
             </li>
           </ul>
         </section>
-        <section class="conteudo-contato" id="conteudo-contato">
-          <div class="email-contato">
+        <section className="conteudo-contato" id="conteudo-contato">
+          <div className="email-contato">
             <div>
               <h2>Deseja entrar em Contato?</h2>
               <p>Envie um e-mail para mim através do formulário.</p>
             </div>
-            <form onSubmit={() => sendEmail(emailData)} id="form-contato">
+            <form onSubmit={(e) => handleEmailChange(e, emailData)}
+              id="form-contato">
               <div>
                 <input onChange={(e) => setEmailData({ ...emailData, nome: e.target.value })}
                   id="nome"
                   type="text"
-                  placeholder="Seu nome ou empresa"
+                  value={emailData.nome}
+                  placeholder="Seu nome ou empresa" required
                 />
                 <input onChange={(e) => setEmailData({ ...emailData, contato: e.target.value })}
                   id="contato"
                   type="text"
-                  placeholder="Seu e-mail ou número para contato"
+                  value={emailData.contato}
+                  placeholder="Seu e-mail ou número para contato" required
                 />
               </div>
-              <textarea onChange={(e) => setEmailData({ ...emailData, mensagem: e.target.value })} id="mensagem" placeholder="Sua mensagem"></textarea>
+              <textarea onChange={(e) => setEmailData({ ...emailData, mensagem: e.target.value })} id="mensagem" value={emailData.mensagem} placeholder="Sua mensagem" required></textarea>
               <button type="submit">Enviar</button>
             </form>
           </div>
-          <div class="info-contato">
+          <div className="info-contato">
             <h3>Informações de contato</h3>
             <p>
               Você também pode entrar em contato comigo através dos seguintes
@@ -220,7 +230,7 @@ function App() {
             </div>
           </div>
         </section>
-      </main>
+      </main >
     </>
   );
 }
