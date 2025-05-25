@@ -47,14 +47,8 @@ function App() {
             </p>
           </div>
           <div>
-            <img
-              src="/ux.jpg"
-              alt="Desenvolvendo experiência de usuário"
-            />
-            <img
-              src="/development.png"
-              alt="Desenvolvendo software/site"
-            />
+            <img src="/ux.jpg" alt="Desenvolvendo experiência de usuário" />
+            <img src="/development.png" alt="Desenvolvendo software/site" />
             <img src="/code.jpg" alt="Desenvolvendo código jQuery" />
           </div>
         </section>
@@ -76,7 +70,10 @@ function App() {
                   <img src="/sass.png" alt="SASS" />
                 </div>
               </div>
-              <a className='projeto-link' href="https://portifolio-livid-pi.vercel.app/">
+              <a
+                className="projeto-link"
+                href="https://portifolio-livid-pi.vercel.app/"
+              >
                 <img src="/github-profiler.png" alt="Projeto" />
               </a>
               <a href="">Ver projeto</a>
@@ -93,7 +90,7 @@ function App() {
                   <img src="/sass.png" alt="SASS" />
                 </div>
               </div>
-              <a className='projeto-link' href="#">
+              <a className="projeto-link" href="#">
                 <img src="https://placehold.co/300x300" alt="Projeto" />
               </a>
               <a href="">Ver projeto</a>
@@ -110,7 +107,7 @@ function App() {
                   <img src="/sass.png" alt="SASS" />
                 </div>
               </div>
-              <a className='projeto-link' href="#">
+              <a className="projeto-link" href="#">
                 <img src="https://placehold.co/300x300" alt="Projeto" />
               </a>
               <a href="">Ver projeto</a>
@@ -127,7 +124,7 @@ function App() {
                   <img src="/sass.png" alt="SASS" />
                 </div>
               </div>
-              <a className='projeto-link' href="#">
+              <a className="projeto-link" href="#">
                 <img src="https://placehold.co/300x300" alt="Projeto" />
               </a>
               <a href="">Ver projeto</a>
@@ -194,23 +191,41 @@ function App() {
               <h2>Deseja entrar em Contato?</h2>
               <p>Envie um e-mail para mim através do formulário.</p>
             </div>
-            <form onSubmit={(e) => handleEmailChange(e, emailData)}
-              id="form-contato">
+            <form
+              onSubmit={(e) => handleEmailChange(e, emailData)}
+              id="form-contato"
+            >
               <div>
-                <input onChange={(e) => setEmailData({ ...emailData, nome: e.target.value })}
+                <input
+                  onChange={(e) =>
+                    setEmailData({ ...emailData, nome: e.target.value })
+                  }
                   id="nome"
                   type="text"
                   value={emailData.nome}
-                  placeholder="Seu nome ou empresa" required
+                  placeholder="Seu nome ou empresa"
+                  required
                 />
-                <input onChange={(e) => setEmailData({ ...emailData, contato: e.target.value })}
+                <input
+                  onChange={(e) =>
+                    setEmailData({ ...emailData, contato: e.target.value })
+                  }
                   id="contato"
                   type="text"
                   value={emailData.contato}
-                  placeholder="Seu e-mail ou número para contato" required
+                  placeholder="Seu e-mail ou número para contato"
+                  required
                 />
               </div>
-              <textarea onChange={(e) => setEmailData({ ...emailData, mensagem: e.target.value })} id="mensagem" value={emailData.mensagem} placeholder="Sua mensagem" required></textarea>
+              <textarea
+                onChange={(e) =>
+                  setEmailData({ ...emailData, mensagem: e.target.value })
+                }
+                id="mensagem"
+                value={emailData.mensagem}
+                placeholder="Sua mensagem"
+                required
+              ></textarea>
               <button type="submit">Enviar</button>
             </form>
           </div>
@@ -230,7 +245,7 @@ function App() {
             </div>
           </div>
         </section>
-      </main >
+      </main>
     </>
   );
 }
